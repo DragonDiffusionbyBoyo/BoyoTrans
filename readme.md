@@ -21,14 +21,14 @@ This project provides a Python-based audio translation tool that converts Englis
 
 2. **Run the Setup Script**:
    - Ensure Python 3.10.11 is installed and added to your PATH.
-   - Double-click `setup_audio_translater.bat` or run it from the command line:
+   - Double-click `Install.bat` or run it from the command line:
      ```bash
      setup_audio_translater.bat
      ```
    - This script:
      - Creates a virtual environment (`venv`).
      - Installs dependencies from `requirements.txt` and PyTorch with CUDA 12.4.
-     - Downloads required models to `models/` (Whisper, MarianMT, XTTS v2).
+     - Downloads required models to `models/` (Whisper, MarianMT, XTTS v2). If this fails you can pull the models down manually with the two other bat files
 
 3. **Prepare Input Files**:
    - Place your `.wav` audio files in the `input/` folder (created automatically if it doesn’t exist).
